@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Serhiy Kozak</title>
+    <title>Serhiy Kozak - Research</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #f9f9f9;
             margin: 0;
             padding: 0;
@@ -17,6 +17,17 @@
             color: white;
             padding: 20px;
             text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
         }
         section {
             margin: 20px;
@@ -28,9 +39,11 @@
         h2 {
             color: #34495e;
         }
-        p {
-            font-size: 1.1em;
-            color: #333;
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
         }
         footer {
             text-align: center;
@@ -46,13 +59,39 @@
 <body>
 
 <header>
-    <h1>Contact Information</h1>
+    <h1>Serhiy Kozak - Academic Research</h1>
 </header>
 
-<section>
-    <h2>Get in Touch</h2>
-    <p>Email: <a href="mailto:sekozak@umd.edu">sekozak@umd.edu</a></p>
-    <p>Address: Van Munching Hall 4453, 7621 Mowatt Lane, College Park, MD 20742</p>
+<nav>
+    <a href="#publications">Publications</a>
+    <a href="data_and_code.html">Data & Code</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://scholar.google.com">Google Scholar</a>
+    <a href="https://faculty-profile-link.com">Faculty Profile</a>
+    <a href="cv.pdf">CV</a>
+</nav>
+
+<section id="publications">
+    <h2>Publications</h2>
+    <ul>
+        <li>
+            <strong><a href="#">Interpreting Factor Models</a></strong><br>
+            Journal of Finance, June 2018, 73(3), 1183-1223 (with Stefan Nagel and Shri Santosh).<br>
+            Abstract: We argue that tests of reduced-form factor models and horse races between "characteristics" and "covariances" cannot discriminate between alternative models of investor beliefs. Since asset returns have substantial commonality, absence of near-arbitrage opportunities implies that the SDF can be represented as a  function of a few dominant sources of return variation...
+        </li>
+        <li>
+            <strong><a href="#">Shrinking the Cross-Section</a></strong><br>
+            Journal of Financial Economics, February 2020, 135(2), 271-292 (Lead Article, with Stefan Nagel and Shri Santosh).<br>
+            Fama-DFA Prize for the Best Paper Published in the Journal of Financial Economics in the Areas of Capital Markets and Asset Pricing, 2020.<br>
+            Abstract: We construct a robust stochastic discount factor (SDF) that summarizes the joint explanatory power of a large number of cross-sectional stock return predictors...
+        </li>
+        <li>
+            <strong><a href="#">Why Do Discount Rates Vary?</a></strong><br>
+            Journal of Financial Economics, September 2020, 137(3), 740-751 (with Shri Santosh).<br>
+            Abstract: Controlling for changes in wealth, the price of "discount-rate" risk reveals whether increases in equity risk premia represent "good" or "bad" news to rational investors...
+        </li>
+        <!-- More publications will follow in the same format -->
+    </ul>
 </section>
 
 <footer>
